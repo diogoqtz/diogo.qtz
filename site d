@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Saveiro G3</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #121212;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+    .car-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.8);
+      margin-bottom: 2rem;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Projeto Saveiro G3</h1>
+  <p>Rebaixada no estilo, pronta pra chamar atenção nas ruas.</p>
+  <img src="saveiro.jpg" alt="Saveiro G3" class="car-image">
+
+  <footer>
+    &copy; 2025 Projeto Saveiro G3 • Feito com estilo
+  </footer>
+</body>
+</html>
